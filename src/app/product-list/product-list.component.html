@@ -4,15 +4,21 @@
     <h3>
         <a [title]="product.name + ' details'">
             {{ product.name }}
-          </a>
+        </a>
     </h3>
 
     <p *ngIf="product.description">
         Description: {{ product.description }}
-      </p>
+    </p>
 
-      <button (click)="share()">
+    <button (click)="share()">
         Share
-      </button>
+    </button>
+
+    <app-product-alerts 
+        [product]="product"
+        (notify)="onNotify()">
+        
+    </app-product-alerts>
 
 </div>

@@ -21,6 +21,10 @@ ng generate component product-list
 /
 把 button 的 click 事件绑定到我们替你定义好的 share() 事件上
 
+//
+app-product-alerts 中 product 是父对子传递参数
+ (notify)="onNotify()"     是子对父的回调 。
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
