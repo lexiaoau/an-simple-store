@@ -1,5 +1,12 @@
 # AnSimpleStore
 
+// create project
+ng new an-simple-store
+
+// create a component under app folder
+ng g component product-list
+ng generate component product-list
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
 ## Development server
