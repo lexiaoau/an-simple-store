@@ -7,6 +7,21 @@ ng new an-simple-store
 ng g component product-list
 ng generate component product-list
 
+// src/app/product-list/product-list.component.html
+*ngFor 是一个 "结构型指令"。结构型指令会通过添加、删除和操纵它们的宿主元素等方式塑造或重塑 DOM 的结构。
+任何带有 * 的指令都是结构型指令。
+
+/
+插值表达式 {{}} 允许你把属性值渲染为文本；而
+属性绑定语法 [] 则允许你在模板表达式中使用属性值。
+
+/
+使用 *ngIf 指令，这样才能在当前商品有描述信息的情况下创建这个 p 元素。
+
+/
+把 button 的 click 事件绑定到我们替你定义好的 share() 事件上
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
 ## Development server
